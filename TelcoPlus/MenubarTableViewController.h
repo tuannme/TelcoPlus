@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MenubarTableViewController.h
 //  TelcoPlus
 //
 //  Created by Nguyễn Mạnh Tuấn on 11/16/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MenubarTableViewController : UITableViewController
 
 @end
-

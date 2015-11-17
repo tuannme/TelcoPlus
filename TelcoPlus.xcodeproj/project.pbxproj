@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE42325B1BFA011300EA968A /* PageContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4232591BFA011300EA968A /* PageContentViewController.xib */; };
+		DE4232611BFA251500EA968A /* banner_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE42325C1BFA251500EA968A /* banner_01.jpg */; };
+		DE4232621BFA251500EA968A /* banner_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE42325D1BFA251500EA968A /* banner_02.jpg */; };
+		DE4232631BFA251500EA968A /* banner_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE42325E1BFA251500EA968A /* banner_03.jpg */; };
+		DE4232641BFA251500EA968A /* banner_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE42325F1BFA251500EA968A /* banner_04.jpg */; };
+		DE4232651BFA251500EA968A /* banner_05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE4232601BFA251500EA968A /* banner_05.jpg */; };
+		DE4232681BFA574100EA968A /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4232671BFA574100EA968A /* CollectionViewCell.xib */; };
 		DE52143B1BF900CC003F65B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE52143A1BF900CC003F65B0 /* main.m */; };
 		DE52143E1BF900CC003F65B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE52143D1BF900CC003F65B0 /* AppDelegate.m */; };
-		DE5214411BF900CC003F65B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5214401BF900CC003F65B0 /* ViewController.m */; };
 		DE5214441BF900CC003F65B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5214421BF900CC003F65B0 /* Main.storyboard */; };
 		DE5214471BF900CC003F65B0 /* TelcoPlus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE5214451BF900CC003F65B0 /* TelcoPlus.xcdatamodeld */; };
 		DE5214491BF900CC003F65B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5214481BF900CC003F65B0 /* Assets.xcassets */; };
 		DE52144C1BF900CC003F65B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE52144A1BF900CC003F65B0 /* LaunchScreen.storyboard */; };
 		DE5214571BF900CC003F65B0 /* TelcoPlusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5214561BF900CC003F65B0 /* TelcoPlusTests.m */; };
 		DE5214621BF900CC003F65B0 /* TelcoPlusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5214611BF900CC003F65B0 /* TelcoPlusUITests.m */; };
+		DE5214781BF901F4003F65B0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5214771BF901F4003F65B0 /* SWRevealViewController.m */; };
+		DE52147B1BF904DB003F65B0 /* MenubarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE52147A1BF904DB003F65B0 /* MenubarTableViewController.m */; };
+		DE52147E1BF906C6003F65B0 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE52147D1BF906C6003F65B0 /* HomeViewController.m */; };
+		DE52148F1BF99200003F65B0 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE52148E1BF99200003F65B0 /* PageContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +46,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE4232571BFA011300EA968A /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		DE4232581BFA011300EA968A /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		DE4232591BFA011300EA968A /* PageContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageContentViewController.xib; sourceTree = "<group>"; };
+		DE42325C1BFA251500EA968A /* banner_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = banner_01.jpg; path = Resource/banner_01.jpg; sourceTree = "<group>"; };
+		DE42325D1BFA251500EA968A /* banner_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = banner_02.jpg; path = Resource/banner_02.jpg; sourceTree = "<group>"; };
+		DE42325E1BFA251500EA968A /* banner_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = banner_03.jpg; path = Resource/banner_03.jpg; sourceTree = "<group>"; };
+		DE42325F1BFA251500EA968A /* banner_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = banner_04.jpg; path = Resource/banner_04.jpg; sourceTree = "<group>"; };
+		DE4232601BFA251500EA968A /* banner_05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = banner_05.jpg; path = Resource/banner_05.jpg; sourceTree = "<group>"; };
+		DE4232671BFA574100EA968A /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		DE5214361BF900CC003F65B0 /* TelcoPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelcoPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE52143A1BF900CC003F65B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DE52143C1BF900CC003F65B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE52143D1BF900CC003F65B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DE52143F1BF900CC003F65B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DE5214401BF900CC003F65B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DE5214431BF900CC003F65B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE5214461BF900CC003F65B0 /* TelcoPlus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TelcoPlus.xcdatamodel; sourceTree = "<group>"; };
 		DE5214481BF900CC003F65B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +70,14 @@
 		DE52145D1BF900CC003F65B0 /* TelcoPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelcoPlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5214611BF900CC003F65B0 /* TelcoPlusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelcoPlusUITests.m; sourceTree = "<group>"; };
 		DE5214631BF900CC003F65B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5214761BF901F4003F65B0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		DE5214771BF901F4003F65B0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		DE5214791BF904DB003F65B0 /* MenubarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenubarTableViewController.h; sourceTree = "<group>"; };
+		DE52147A1BF904DB003F65B0 /* MenubarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenubarTableViewController.m; sourceTree = "<group>"; };
+		DE52147C1BF906C6003F65B0 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		DE52147D1BF906C6003F65B0 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		DE52148D1BF99200003F65B0 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		DE52148E1BF99200003F65B0 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,13 +105,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE4232661BFA55D400EA968A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DE4232671BFA574100EA968A /* CollectionViewCell.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
 		DE52142D1BF900CB003F65B0 = {
 			isa = PBXGroup;
 			children = (
 				DE5214381BF900CC003F65B0 /* TelcoPlus */,
+				DE5214371BF900CC003F65B0 /* Products */,
 				DE5214551BF900CC003F65B0 /* TelcoPlusTests */,
 				DE5214601BF900CC003F65B0 /* TelcoPlusUITests */,
-				DE5214371BF900CC003F65B0 /* Products */,
+				DE5214841BF990DF003F65B0 /* Resource */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,16 +137,25 @@
 		DE5214381BF900CC003F65B0 /* TelcoPlus */ = {
 			isa = PBXGroup;
 			children = (
+				DE4232661BFA55D400EA968A /* UI */,
+				DE52147C1BF906C6003F65B0 /* HomeViewController.h */,
+				DE52147D1BF906C6003F65B0 /* HomeViewController.m */,
+				DE4232571BFA011300EA968A /* PageContentViewController.h */,
+				DE4232581BFA011300EA968A /* PageContentViewController.m */,
+				DE4232591BFA011300EA968A /* PageContentViewController.xib */,
+				DE5214751BF901C2003F65B0 /* SWRevealViewController */,
 				DE52143C1BF900CC003F65B0 /* AppDelegate.h */,
 				DE52143D1BF900CC003F65B0 /* AppDelegate.m */,
-				DE52143F1BF900CC003F65B0 /* ViewController.h */,
-				DE5214401BF900CC003F65B0 /* ViewController.m */,
 				DE5214421BF900CC003F65B0 /* Main.storyboard */,
 				DE5214481BF900CC003F65B0 /* Assets.xcassets */,
 				DE52144A1BF900CC003F65B0 /* LaunchScreen.storyboard */,
 				DE52144D1BF900CC003F65B0 /* Info.plist */,
 				DE5214451BF900CC003F65B0 /* TelcoPlus.xcdatamodeld */,
 				DE5214391BF900CC003F65B0 /* Supporting Files */,
+				DE5214791BF904DB003F65B0 /* MenubarTableViewController.h */,
+				DE52147A1BF904DB003F65B0 /* MenubarTableViewController.m */,
+				DE52148D1BF99200003F65B0 /* PageContentViewController.h */,
+				DE52148E1BF99200003F65B0 /* PageContentViewController.m */,
 			);
 			path = TelcoPlus;
 			sourceTree = "<group>";
@@ -141,6 +184,27 @@
 				DE5214631BF900CC003F65B0 /* Info.plist */,
 			);
 			path = TelcoPlusUITests;
+			sourceTree = "<group>";
+		};
+		DE5214751BF901C2003F65B0 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE5214761BF901F4003F65B0 /* SWRevealViewController.h */,
+				DE5214771BF901F4003F65B0 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		DE5214841BF990DF003F65B0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DE42325C1BFA251500EA968A /* banner_01.jpg */,
+				DE42325D1BFA251500EA968A /* banner_02.jpg */,
+				DE42325E1BFA251500EA968A /* banner_03.jpg */,
+				DE42325F1BFA251500EA968A /* banner_04.jpg */,
+				DE4232601BFA251500EA968A /* banner_05.jpg */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +274,7 @@
 				TargetAttributes = {
 					DE5214351BF900CC003F65B0 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = N33STSQU9K;
 					};
 					DE5214511BF900CC003F65B0 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -246,8 +311,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE42325B1BFA011300EA968A /* PageContentViewController.xib in Resources */,
 				DE52144C1BF900CC003F65B0 /* LaunchScreen.storyboard in Resources */,
+				DE4232611BFA251500EA968A /* banner_01.jpg in Resources */,
 				DE5214491BF900CC003F65B0 /* Assets.xcassets in Resources */,
+				DE4232681BFA574100EA968A /* CollectionViewCell.xib in Resources */,
+				DE4232641BFA251500EA968A /* banner_04.jpg in Resources */,
+				DE4232651BFA251500EA968A /* banner_05.jpg in Resources */,
+				DE4232631BFA251500EA968A /* banner_03.jpg in Resources */,
+				DE4232621BFA251500EA968A /* banner_02.jpg in Resources */,
 				DE5214441BF900CC003F65B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,10 +345,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE5214411BF900CC003F65B0 /* ViewController.m in Sources */,
 				DE5214471BF900CC003F65B0 /* TelcoPlus.xcdatamodeld in Sources */,
 				DE52143E1BF900CC003F65B0 /* AppDelegate.m in Sources */,
 				DE52143B1BF900CC003F65B0 /* main.m in Sources */,
+				DE52147B1BF904DB003F65B0 /* MenubarTableViewController.m in Sources */,
+				DE52148F1BF99200003F65B0 /* PageContentViewController.m in Sources */,
+				DE52147E1BF906C6003F65B0 /* HomeViewController.m in Sources */,
+				DE5214781BF901F4003F65B0 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -405,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -417,10 +492,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TelcoPlus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.telcoplus.TelcoPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -428,10 +506,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TelcoPlus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.telcoplus.TelcoPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -502,6 +583,7 @@
 				DE5214681BF900CC003F65B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE5214691BF900CC003F65B0 /* Build configuration list for PBXNativeTarget "TelcoPlusTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +592,7 @@
 				DE52146B1BF900CC003F65B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE52146C1BF900CC003F65B0 /* Build configuration list for PBXNativeTarget "TelcoPlusUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +601,7 @@
 				DE52146E1BF900CC003F65B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
