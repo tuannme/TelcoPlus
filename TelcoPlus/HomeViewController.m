@@ -222,6 +222,9 @@ static NSString *kCellReuseIdentifier = @"CollectionViewCell";
     return cell;
 }
 
+
+//
+
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
     return CGSizeMake(self.view.bounds.size.width/2, self.collectionView.frame.size.height/3);
 }
